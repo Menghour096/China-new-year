@@ -3,42 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chinese New Year Celebration</title>
+    <title>Chinese New Year</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>🧧 Happy Chinese New Year 🧧</h1>
-        <p>Wishing you prosperity, happiness, and good fortune!</p>
-    </header>
+<!-- 🧧 Intro Screen -->
+<div id="intro">
+    <div class="angpov-box">
+        <div class="angpov"></div>
+        <h2>🧧 Lucky Red Envelope 🧧</h2>
+        <p>Click to open your luck!</p>
+        <button onclick="enterSite()">Enter Celebration</button>
+    </div>
+</div>
 
-    <section class="countdown">
-        <h2>Countdown to Chinese New Year</h2>
-        <div id="timer">16-02-2026</div>
+<!-- 🎉 Main Website -->
+<div id="main-content">
+
+    <!-- 🎉 Hero Section -->
+    <section class="hero">
+        <h1>🧧 Happy Chinese New Year 2026 🧧</h1>
+        <p>Wishing you wealth, happiness, and success!</p>
     </section>
 
-    <section class="info">
+    <!-- 🏮 Lantern Animation -->
+    <div class="lantern-container">
+        <div class="lantern"></div>
+        <div class="lantern"></div>
+        <div class="lantern"></div>
+    </div>
+
+    <!-- 📖 About Section -->
+    <section class="card">
         <h2>About Chinese New Year</h2>
         <p>
-            Chinese New Year, also known as Lunar New Year or Spring Festival,
-            is the most important traditional festival in China. Families gather,
-            enjoy festive meals, give red envelopes, and celebrate with fireworks
-            and dragon dances.
+            Chinese New Year, also known as Lunar New Year,
+            is celebrated with family reunions, fireworks,
+            dragon dances, and the giving of red envelopes (angpov)
+            for good luck and prosperity.
         </p>
     </section>
 
-    <section class="qr-section">
-        <h2>Scan My QR Code</h2>
-        <!-- Replace qr.png with your QR code image -->
-        <img src="photo_2026-02-16_11-04-32.jpg" alt="My QR Code" class="qr">
-        <p>Scan to connect with me!</p>
+    <!-- 📱 QR Section -->
+    <section class="card highlight">
+        <h2>📲 Scan My QR Code</h2>
+        <img src="photo_2026-02-16_11-04-32.jpg" class="qr">
+        <p>Scan to connect with me and receive lucky wishes!</p>
     </section>
 
     <footer>
-        <p>© 2026 Chinese New Year Celebration</p>
+        © 2026 Chinese New Year Celebration
     </footer>
 
-<script src="script.js"></script>
+</div>
+
+
+<script src="style.js"></script>
 </body>
 </html>
